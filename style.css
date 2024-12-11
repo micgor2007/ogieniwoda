@@ -1,0 +1,63 @@
+body {
+    color: aliceblue;
+    background-color: #161616;
+    margin: 0px;
+}
+
+#bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+#hp {
+    height: 5vh;
+    width: 30vw;
+    margin-right: 5vw;
+}
+
+#time-container {
+    margin-left: 5vw;
+}
+
+#best-time-container {
+    margin-left: 5vw;
+}
+
+#board {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    max-width: 50px;
+    max-height: 50px;
+    position: absolute;
+}
+
+/* Ekran końca gry */
+#gameOverScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#restartButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

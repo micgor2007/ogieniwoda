@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Obiekt latający</title>
+</head>
+<body>
+    <div id="bar">
+        <meter id="hp" min="0" max="150" low="50" high="100" optimum="120" value="150"></meter>
+        <p id="time-container">Czas przeżyty: <b id="time">0</b> s</p>
+        <p id="best-time-container">Najlepszy czas: <b id="best-time">0</b> s</p>
+    </div>
+    <div id="board"></div>
+    <div id="gameOverScreen" style="display:none;">
+        <h2>Koniec gry!</h2>
+        <button id="restartButton">Nowa Gra</button>
+    </div>
+</body>
+</html>
